@@ -1,0 +1,21 @@
+@import "./modal.scss";
+@import "./variables.scss";
+@import "./form.scss";
+@import "./list.scss";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #eeeeee;
+}
+.btn {
+    outline: none;
+    background-color: $accent;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
